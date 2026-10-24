@@ -1,4 +1,4 @@
-import { Card } from "../types/card";
+import type { Card } from "../types/card.ts";
 
 let cards: Card[] = [
 {
@@ -26,6 +26,7 @@ export function getAllCards() {
 }
 
 export function createCard(title: string) {
+
 const newCard: Card = {
      id: '2',
     title: 'Card 2',
